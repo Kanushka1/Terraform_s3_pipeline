@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "bucket-pipeline-123"
+  bucket = "bucket-pipeline-1234"
   acl    = "private"
 }
